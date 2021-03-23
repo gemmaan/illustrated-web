@@ -9,12 +9,14 @@
 /* Template default CSS
 /*----------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Playfair+Display:400,400i,700,700i&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Playfair+Display:400,400i,700,700i&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 html,
 body {
 	height: 100%;
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
+	font-family: 'Baskervville', serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -58,7 +60,7 @@ h6 {
 }
 
 p {
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 1.8;
 }
 
@@ -108,10 +110,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 		height: 15%;
 	   }
 }
-
+   
 
 .section-title {
-	text-align: center;
+	padding-bottom: 30px;
 }
 
 .section-title h2 {
@@ -143,6 +145,20 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	padding-bottom: 50px;
 }
 
+.text-right h1,
+.text-right h2,
+.text-right h3,
+.text-right h4,
+.text-right h5,
+.text-right h6,
+.text-right p,
+.text-right span,
+.text-right li,
+.text-right a {
+	text-align: right;
+}
+
+
 .text-white h1,
 .text-white h2,
 .text-white h3,
@@ -154,6 +170,19 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .text-white li,
 .text-white a {
 	color: #fff;
+}
+
+.text-red h1,
+.text-red h2,
+.text-red h3,
+.text-red h4,
+.text-red h5,
+.text-red h6,
+.text-red p,
+.text-red span,
+.text-red li,
+.text-red a {
+	color: #942424 ;
 }
 
 .bg-g-1,
@@ -1403,16 +1432,27 @@ only screen and (min-width: 576px) and (max-width: 767px),
   About section
 ---------------------*/
 
-.about-ampersand {
+.about-ampersand img {
 	width: 30%;
 	height: 30%;
 }
+   
+   
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	.about-ampersand img {
+		width: 30%;
+		height: 30%;
+		}
+}
 .about-section {
-	height: 900px;
+	height: 800px;
 	background-image: url(../img/AI-Wed-Website_Bride-Groom.png);
 	background-size: contain;
 	background-position: center bottom;
 	background-repeat: no-repeat;
+	background-color: #F0E4D5;
 
 }
 .about-item {
