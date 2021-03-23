@@ -22,7 +22,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
 	margin: 0;
@@ -95,14 +94,24 @@ ol {
 /*---------------------
    Helper CSS
  -----------------------*/
+.section-icon img {
+ width: 5%;
+ height: 5%;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	.section-icon img {
+		width: 15%;
+		height: 15%;
+	   }
+}
+
 
 .section-title {
 	text-align: center;
-	margin-bottom: 55px;
-}
-
-.section-title img {
-	margin-bottom: 15px;
 }
 
 .section-title h2 {
@@ -113,14 +122,14 @@ ol {
 }
 
 .section-text {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .section-title p {
-	padding-top: 15px;
-	/* margin-bottom: 0; */
-	padding-bottom: 15px;
+	/* padding-top: 15px; */
+	margin-bottom: 0;
+	/* padding-bottom: 15px; */
 }
 
 .set-bg {
@@ -151,7 +160,6 @@ ol {
 .site-pagination a.active,
 .site-pagination a:hover,
 .page-top-section:after,
-.review-section:after,
 .search-model:after,
 .hero-section,
 .back-to-top {
@@ -2083,6 +2091,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	top: 0;
 	opacity: 0.92;
 	filter: alpha(opacity=92);
+	background-color: #FCB854;
 }
 
 .review-section .container {
@@ -2121,6 +2130,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .review-item {
 	text-align: center;
 	padding-top: 3px;
+}
+
+.ri-text {
+	color: #942424;
 }
 
 .review-item .ri-img {
