@@ -60,7 +60,6 @@ h6 {
 
 p {
 	font-size: 15px;
-	color: #666666;
 	line-height: 1.8;
 }
 
@@ -113,9 +112,15 @@ ol {
 	text-transform: uppercase;
 }
 
+.section-text {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .section-title p {
 	padding-top: 15px;
-	margin-bottom: 0;
+	/* margin-bottom: 0; */
+	padding-bottom: 15px;
 }
 
 .set-bg {
@@ -125,8 +130,8 @@ ol {
 }
 
 .spad {
-	padding-top: 110px;
-	padding-bottom: 105px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .text-white h1,
@@ -876,7 +881,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
 	.hero-section {
-		min-height: 600px;
+		min-height: 650px;
 		/* min-height: auto; */
 		height: auto;
 	}
@@ -954,10 +959,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .hero-slider .owl-stage,
 .hero-slider .owl-item {
 	height: 100%;
-}
-
-.hero-slider.owl-carousel .owl-item img {
-	width: auto;
 }
 
 .hero-slider .owl-dots {
@@ -1041,10 +1042,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	background-size: contain;
 	background-position: center bottom;
 	background-repeat: no-repeat;
+	background-color: #F0E4D5;
 }
 
 @media (max-width: 576px) {
 	.hs-item {
+		height: 650px;
 		padding: 0 20px;
 	}
 }
@@ -1095,10 +1098,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hs-style-1 img {
-	max-height: 100%;
+	/* max-height: 100%; */
 	position: relative;
 	top: 50px;
 	opacity: 0;
+	width: 35%;
+	height: 35%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -1106,6 +1111,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
 	.hs-style-1 {
 		padding: 90px 0 100px;
+	}
+
+	.hs-style-1 img {
+		width: 60%;
+		height: 60%;
 	}
 }
 
@@ -2378,7 +2388,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 ---------------------*/
 
 .pricing-section {
-	background: #f9f2f0;
+	background: #942424;
+	color: white;
 }
 
 .pricing-item {
