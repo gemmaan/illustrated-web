@@ -2227,6 +2227,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*------------------
   Event section
 ---------------------*/
+
+.event-details {
+	margin-bottom: 30px;
+}
 .cta-button-container {
 	display: flex;
 }
@@ -2277,7 +2281,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
 	color: white;
-    background-color: #942424
+	background-color: rgba(183, 77, 38, 0.70);
 }
 
 .event-item:hover {
@@ -2305,8 +2309,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .event-item .ei-text {
 	overflow: hidden;
 	padding-top: 30px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
 	padding-bottom: 30px;
 }
 
