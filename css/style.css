@@ -27,7 +27,6 @@ h3,
 h5,
 h6 {
 	margin: 0;
-	color: #333333;
 	font-weight: 600;
 }
 
@@ -36,14 +35,14 @@ h1 {
 }
 
 h2 {
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	font-weight: 400;
 	font-size: 36px;
 }
 
 h3 {
 	font-size: 30px;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	font-weight: 400;
 }
 
@@ -119,7 +118,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .section-title h2 {
 	font-weight: 400;
 	font-size: 38px;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	text-transform: uppercase;
 }
 
@@ -192,15 +191,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .search-model:after,
 .hero-section,
 .back-to-top {
-	background: -o-linear-gradient(305deg, #f65d5d 0%, #fdb07d 100%);
-	background: linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f65d5d", endColorstr="#fdb07d", GradientType=1);
+	background: -o-linear-gradient(305deg, #942424 0%, #FCB854 100%);
+	background: linear-gradient(145deg, #942424 0%, #FCB854 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#942424", endColorstr="#FCB854", GradientType=1);
 }
 
 .bg-g-2,
 .infor-form button,
-.site-btn.sb-line-gradient,
-.site-btn.sb-gradient {
+.site-btn.sb-line-gradient{
 	background: -o-linear-gradient(305deg, #fdb07d 0%, #f65d5d 100%);
 	background: linear-gradient(145deg, #fdb07d 0%, #f65d5d 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fdb07d", endColorstr="#f65d5d", GradientType=1);
@@ -216,20 +214,21 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	display: inline-block;
 	border: none;
 	font-size: 16px;
-	font-weight: 600;
-	min-width: 167px;
+	font-weight: bolder;
 	padding: 14px 30px;
-	border-radius: 50px;
-	text-transform: uppercase;
+	border-radius: 15px;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
 	text-align: center;
 	letter-spacing: 1px;
+	width: 100%;
+	background-color: #FCB854;
 }
 
 .site-btn:hover {
 	color: #fff;
+	border-radius: 15px;
 }
 
 .site-btn.sb-white {
@@ -238,7 +237,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .site-btn.sb-gradient {
-	color: #fff;
 	padding: 13px 29px;
 	position: relative;
 	-webkit-transition: all 0.4s;
@@ -254,7 +252,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	height: calc(100% - 4px);
 	top: 2px;
 	left: 2px;
-	border-radius: 80px;
+	/* border-radius: 80px; */
 	background: #fff;
 	z-index: -1;
 	opacity: 0;
@@ -262,10 +260,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
+	border-radius: 15px;
 }
 
 .site-btn.sb-gradient:hover {
-	color: #f65d5d;
+	color: #942424;
 }
 
 .site-btn.sb-gradient:hover:after {
@@ -1093,7 +1092,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	text-transform: uppercase;
 	font-size: 50px;
 	color: #fff;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	line-height: 1.3;
 	margin-bottom: 20px;
 }
@@ -1496,7 +1495,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about-item .ai-text h4 {
 	font-weight: 400;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	margin-bottom: 15px;
 }
 
@@ -1528,7 +1527,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 ---------------------*/
 
 .classes-section {
-	background: #f9f2f0;
+	background: #F0E4D5;
 }
 
 .classes-slider .owl-dots {
@@ -1601,7 +1600,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .classes-item h4 {
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	font-weight: 400;
 	margin-bottom: 15px;
 }
@@ -1663,7 +1662,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .classes-item .ci-author h6 {
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	font-weight: 400;
 }
 
@@ -1867,7 +1866,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .pc-item .pc-text h4 {
 	font-size: 20px;
 	font-weight: 400;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	margin-bottom: 15px;
 }
 
@@ -1878,9 +1877,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 	transition: all 0.3s;
 }
 
-.pc-item .pc-text h4 a:hover {
+/* .pc-item .pc-text h4 a:hover {
 	color: #f65d5d;
-}
+} */
 
 .pc-item .pc-text ul {
 	list-style: none;
@@ -1905,6 +1904,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .trainer-section {
 	padding-bottom: 80px;
+	background-color: #F0E4D5;
+	background-image: url(../img/AI-Wed-Website_Ornamen-3.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 10em;
 }
 
 .trainer-slider {
@@ -2059,7 +2063,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .trainer-item h4 {
 	font-weight: 400;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	margin-bottom: 10px;
 }
 
@@ -2101,10 +2105,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	transition: all 0.2s;
 }
 
-.trainer-item .ti-social a:hover {
+/* .trainer-item .ti-social a:hover {
 	color: #fff;
 	background: #f65d5d;
-}
+} */
 
 .trainer-item:hover {
 	-webkit-box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
@@ -2211,7 +2215,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .review-item h4 {
 	font-weight: 400;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	font-weight: 400;
 	margin-bottom: 12px;
 }
@@ -2223,6 +2227,18 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*------------------
   Event section
 ---------------------*/
+.cta-button-container {
+	display: flex;
+}
+
+.date-and-time {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.event-section {
+	background-color: #F0E4D5;
+}
 
 .event-video {
 	border-radius: 14px;
@@ -2260,6 +2276,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
+	color: white;
+    background-color: #942424
 }
 
 .event-item:hover {
@@ -2288,6 +2306,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	overflow: hidden;
 	padding-top: 30px;
 	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 30px;
 }
 
 @media (max-width: 576px) {
@@ -2304,7 +2324,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .event-item .ei-text h4 {
 	font-weight: 400;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	margin-bottom: 15px;
 }
 
@@ -2315,9 +2335,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	transition: all 0.3s;
 }
 
-.event-item .ei-text h4 a:hover {
+/* .event-item .ei-text h4 a:hover {
 	color: #f65d5d;
-}
+} */
 
 .event-item .ei-text ul {
 	list-style: none;
@@ -2472,7 +2492,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .pricing-item .pi-top h4 {
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	color: #fff;
 	font-size: 22px;
 	font-weight: 400;
@@ -2566,7 +2586,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .singup-text h3 {
 	font-weight: 400;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	margin-bottom: 15px;
 }
 
@@ -2653,7 +2673,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .gs-item .gs-hover p {
 	font-size: 25px;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	color: #fff;
 	margin-bottom: 0;
 }
@@ -2675,9 +2695,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	filter: alpha(opacity=90);
 }
 
-.footer-section {
+/* .footer-section {
 	padding-top: 70px;
-}
+} */
 
 .footer-widget {
 	margin-bottom: 30px;
@@ -2729,7 +2749,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .footer-bottom {
-	margin-top: 30px;
+	/* margin-top: 30px; */
 	border-top: 1px solid #e6e6e6;
 	padding: 20px 0;
 }
@@ -2772,9 +2792,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-weight: 600;
 }
 
-.copyright a:hover {
+/* .copyright a:hover {
 	color: #f65d5d;
-}
+} */
 
 .copyright i {
 	color: #f65d5d;
@@ -2974,7 +2994,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	display: inline-block;
 	padding: 0px 18px 5px;
 	font-size: 30px;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	color: #fff;
 	background: #f65d5d;
 	border-radius: 13px;
@@ -3061,10 +3081,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	transition: all 0.2s;
 }
 
-.classes-details .cd-social a:hover {
+/* .classes-details .cd-social a:hover {
 	color: #fff;
 	background: #f65d5d;
-}
+} */
 
 .classes-other-slider {
 	margin: 0 -50px 70px;
@@ -3278,7 +3298,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .about-instructor-widget h4 {
 	font-weight: 400;
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	margin-bottom: 10px;
 }
 
@@ -3402,7 +3422,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .trainer-details .trainer-info h3 {
-	font-family: "Playfair Display", serif;
+	font-family: 'Baskervville', serif;
 	margin-bottom: 15px;
 }
 
@@ -3626,11 +3646,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
-
+/* 
 .event-details .ed-social a:hover {
 	color: #fff;
 	background: #f65d5d;
-}
+} */
 
 .event-other-slider {
 	margin: 0 -32px 70px;
@@ -4028,10 +4048,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	transition: all 0.2s;
 }
 
-.blog-details .ed-social a:hover {
+/* .blog-details .ed-social a:hover {
 	color: #fff;
 	background: #f65d5d;
-}
+} */
 
 .blog-gallery {
 	margin-bottom: 20px;
