@@ -112,7 +112,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
    
 
 .section-title {
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 }
 
 .section-title h2 {
@@ -131,6 +131,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	/* padding-top: 15px; */
 	margin-bottom: 0;
 	/* padding-bottom: 15px; */
+}
+
+.quote-text {
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .set-bg {
@@ -182,6 +187,19 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .text-red li,
 .text-red a {
 	color: #942424 ;
+}
+
+.text-grey h1,
+.text-grey h2,
+.text-grey h3,
+.text-grey h4,
+.text-grey h5,
+.text-grey h6,
+.text-grey p,
+.text-grey span,
+.text-grey li,
+.text-grey a {
+	color: #7D7A7A ;
 }
 
 .bg-g-1,
@@ -370,6 +388,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 		border: 4px solid #f44336;
 		border-left-color: transparent;
 	}
+}
+
+.content-text {
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 
 /*------------------
@@ -2242,6 +2265,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .event-section {
 	background-color: #F0E4D5;
+	background-image: url(../img/AI-Wed-Website_Ornamen-3-top.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 10em;
 }
 
 .event-video {
