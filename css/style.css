@@ -9,13 +9,11 @@
 /* Template default CSS
 /*----------------------------------------*/
 
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Playfair+Display:400,400i,700,700i&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 html,
 body {
 	height: 100%;
-	/* font-family: "Open Sans", sans-serif; */
 	font-family: 'Baskervville', serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
@@ -92,6 +90,21 @@ ol {
 	}
 }
 
+/* SUITABLE FOR IPHONE 5 */
+@media only screen and (max-width: 576px) {
+	h3 {
+		font-size: 20px;
+	}
+	
+	h4 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
 /*---------------------
    Helper CSS
  -----------------------*/
@@ -100,7 +113,7 @@ ol {
  height: 5%;
 }
 
-
+/* SUITABLE FOR IPHONE 6,7,8, PLUS, X */
 @media only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
@@ -236,8 +249,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-only screen and (min-width: 576px) and (max-width: 767px),
-(max-width: 576px) {
+only screen and (min-width: 576px) and (max-width: 767px){
 	h3 {
 		font-size: 23px;
 	}
@@ -267,6 +279,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	letter-spacing: 1px;
 	width: 100%;
 	background-color: #FCB854;
+}
+
+@media only screen and (max-width: 576px) {
+	.site-btn {
+		font-size: 12px;
+	}
 }
 
 .site-btn:hover {
@@ -962,10 +980,17 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-only screen and (min-width: 576px) and (max-width: 767px),
-(max-width: 576px) {
+only screen and (min-width: 576px) and (max-width: 767px) {
 	.hero-section {
 		min-height: 650px;
+		/* min-height: auto; */
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.hero-section {
+		min-height: 570px;
 		/* min-height: auto; */
 		height: auto;
 	}
@@ -1131,7 +1156,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media (max-width: 576px) {
 	.hs-item {
-		height: 650px;
+		height: 570px;
 		padding: 0 20px;
 		background-image: url(../img/AI-Wed-Website_mobile-cincinbunga.png);
 		background-size: contain;
@@ -1525,8 +1550,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-only screen and (min-width: 576px) and (max-width: 767px),
-(max-width: 576px) {
+only screen and (min-width: 576px) and (max-width: 767px) {
 	.about-ampersand img {
 		width: 10%;
 		height: 10%;
@@ -1542,6 +1566,18 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 @media (max-width: 576px) {
+	.about-ampersand img {
+		width: 10%;
+		height: 10%;
+	}
+
+	.about-section {
+		height: 650px;
+		background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1.png);
+		background-position: bottom;
+		background-size: contain;
+	
+	}
 	.about-item .ai-icon {
 		float: none;
 		margin-bottom: 20px;
@@ -1603,12 +1639,21 @@ only screen and (min-width: 576px) and (max-width: 767px),
 		background-repeat: no-repeat; */
 	}
 
-	.about-groom-details {
-		padding-right: 170px;
-	}
-
 	.bride-and-groom-name h3 {
 		font-style: italic;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.about-bride {
+		height: 150px;
+		padding-left: 140px;
+		padding-top: 5px;
+		padding-bottom:30px;
+	}
+
+	.about-groom-details {
+		padding-right: 155px;
 	}
 }
 
@@ -2209,6 +2254,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	margin-bottom: 90px;
 }
 
+@media only screen and (max-width: 576px) {
+	#normal-countdown {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
 /*------------------
   Review section
 ---------------------*/
@@ -2301,6 +2353,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .review-item p {
 	font-size: 18px;
 	margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+	.review-item p {
+		font-size: 12px;
+		margin-bottom: 50px;
+	}
 }
 
 .review-item h4 {
