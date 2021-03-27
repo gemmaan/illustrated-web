@@ -259,6 +259,10 @@ only screen and (min-width: 576px) and (max-width: 767px){
 	}
 }
 
+.flex-item {
+	display: flex;
+}
+
 /*---------------------
   Commom elements
 -----------------------*/
@@ -1550,7 +1554,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-only screen and (min-width: 576px) and (max-width: 767px) {
+only screen and (min-width: 576px) and (max-width: 767px), (max-width: 576px){
 	.about-ampersand img {
 		width: 10%;
 		height: 10%;
@@ -1560,23 +1564,14 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	height: 800px;
 	background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1.png);
 	background-position: bottom;
-	background-size: contain;
+	background-size: 100%;
 
 }
 }
 
-@media (max-width: 576px) {
-	.about-ampersand img {
-		width: 10%;
-		height: 10%;
-	}
-
+@media only screen and (max-width: 576px) {
 	.about-section {
 		height: 650px;
-		background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1.png);
-		background-position: bottom;
-		background-size: contain;
-	
 	}
 	.about-item .ai-icon {
 		float: none;
