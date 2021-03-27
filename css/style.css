@@ -202,6 +202,19 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	color: #7D7A7A ;
 }
 
+.text-italic h1,
+.text-italic h2,
+.text-italic h3,
+.text-italic h4,
+.text-italic h5,
+.text-italic h6,
+.text-italic p,
+.text-italic span,
+.text-italic li,
+.text-italic a {
+	font-style: italic;
+}
+
 .bg-g-1,
 .site-pagination a.active,
 .site-pagination a:hover,
@@ -220,6 +233,18 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	background: -o-linear-gradient(305deg, #fdb07d 0%, #f65d5d 100%);
 	background: linear-gradient(145deg, #fdb07d 0%, #f65d5d 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fdb07d", endColorstr="#f65d5d", GradientType=1);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	h3 {
+		font-size: 23px;
+	}
+
+	p {
+		font-size: 18px;
+	}
 }
 
 /*---------------------
@@ -1108,6 +1133,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	.hs-item {
 		height: 650px;
 		padding: 0 20px;
+		background-image: url(../img/AI-Wed-Website_mobile-cincinbunga.png);
+		background-size: contain;
+		background-position: center bottom;
+		background-repeat: no-repeat;
 	}
 }
 
@@ -1460,15 +1489,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	padding-top: 10px;
 }
    
-   
-@media only screen and (min-width: 768px) and (max-width: 991px),
-only screen and (min-width: 576px) and (max-width: 767px),
-(max-width: 576px) {
-	.about-ampersand img {
-		width: 30%;
-		height: 30%;
-		}
-}
 .about-section {
 	height: 800px;
 	background-image: url(../img/AI-Wed-Website_Bride-Groom.png);
@@ -1502,6 +1522,23 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	.about-ampersand img {
+		width: 10%;
+		height: 10%;
+		}
+
+	.about-section {
+	height: 800px;
+	background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1.png);
+	background-position: bottom;
+	background-size: contain;
+
+}
 }
 
 @media (max-width: 576px) {
@@ -1539,9 +1576,39 @@ only screen and (min-width: 576px) and (max-width: 767px),
 @media only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
+
+	.about-groom {
+		height: 200px;
+		padding-top: 40px;
+		padding-bottom:30px;
+		/* background-image: url(../img/AI-Wed-Website_mobile-bride&groom-jon.png); */
+		/* background-size: 15em;
+		background-position: right;
+		background-repeat: no-repeat; */
+	}
+
 	.about-img {
 		text-align: center;
 		margin-bottom: 50px;
+	}
+
+	.about-bride {
+		height: 200px;
+		padding-left: 140px;
+		padding-top: 30px;
+		padding-bottom:30px;
+		/* background-image: url(../img/AI-Wed-Website_mobile-bride&groom-ajeng.png);
+		background-size: contain;
+		background-position: left;
+		background-repeat: no-repeat; */
+	}
+
+	.about-groom-details {
+		padding-right: 170px;
+	}
+
+	.bride-and-groom-name h3 {
+		font-style: italic;
 	}
 }
 
@@ -2486,6 +2553,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	.event-filter-form .site-btn {
 		margin-top: 10px;
 	}
+}
+
+.event-date-and-time img {
+	width: 63%;
+	height: 63%;
 }
 
 /*------------------
