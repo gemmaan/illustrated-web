@@ -1555,24 +1555,34 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px), (max-width: 576px){
+	.content-text {
+		padding-bottom: 0;
+	}
 	.about-ampersand img {
 		width: 10%;
 		height: 10%;
 		}
 
 	.about-section {
-	height: 800px;
+	background-image: none;
+	/* background-position: bottom;
+	background-size: 100%; */
+	/* background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1.png);
+	background-position: bottom;
+	background-size: 100%;
+	background-repeat: no-repeat; */
+
+}
+.container-bottom {
 	background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1.png);
 	background-position: bottom;
 	background-size: 100%;
-
+	background-repeat: no-repeat;
+	height: 550px;
 }
 }
 
 @media only screen and (max-width: 576px) {
-	.about-section {
-		height: 650px;
-	}
 	.about-item .ai-icon {
 		float: none;
 		margin-bottom: 20px;
