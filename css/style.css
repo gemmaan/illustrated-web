@@ -1160,7 +1160,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 @media (max-width: 576px) {
 	.hs-item {
-		height: 570px;
+		height: 100vh;
 		padding: 0 20px;
 		background-image: url(../img/AI-Wed-Website_mobile-cincinbunga.png);
 		background-size: contain;
@@ -1565,6 +1565,7 @@ only screen and (min-width: 576px) and (max-width: 767px), (max-width: 576px){
 
 	.about-section {
 	background-image: none;
+	height: auto;
 	/* background-position: bottom;
 	background-size: 100%; */
 	/* background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1.png);
@@ -1574,11 +1575,17 @@ only screen and (min-width: 576px) and (max-width: 767px), (max-width: 576px){
 
 }
 .container-bottom {
-	background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1.png);
+	background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1-cropped.png);
 	background-position: bottom;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 550px;
+	height: 135vw;
+}
+
+.container.container-bottom {
+    max-width: 100%;
+    /* padding-left: 50px;
+    padding-right: 50px; */
 }
 }
 
@@ -1619,9 +1626,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
 
 	.about-groom {
-		height: 200px;
-		padding-top: 40px;
+		height: 50vw;
+		padding-top: 70px;
 		padding-bottom:30px;
+		padding-left: 30px;
 		/* background-image: url(../img/AI-Wed-Website_mobile-bride&groom-jon.png); */
 		/* background-size: 15em;
 		background-position: right;
@@ -1634,10 +1642,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	}
 
 	.about-bride {
-		height: 200px;
+		height: 50vw;
 		padding-left: 140px;
-		padding-top: 30px;
+		padding-top: 50px;
 		padding-bottom:30px;
+		padding-right: 30px;
 		/* background-image: url(../img/AI-Wed-Website_mobile-bride&groom-ajeng.png);
 		background-size: contain;
 		background-position: left;
@@ -1650,12 +1659,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 @media only screen and (max-width: 576px) {
-	.about-bride {
+	/* .about-bride {
 		height: 150px;
 		padding-left: 140px;
-		padding-top: 5px;
+		padding-top: 50px;
 		padding-bottom:30px;
-	}
+	} */
 
 	.about-groom-details {
 		padding-right: 155px;
