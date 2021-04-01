@@ -90,14 +90,20 @@ ol {
 	}
 }
 
+@media (min-width: 768px) {
+	.mobile-br {
+		display: none;
+	}
+}
+
 /* SUITABLE FOR IPHONE 5 */
 @media only screen and (max-width: 576px) {
 	h3 {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	
 	h4 {
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	p {
@@ -233,7 +239,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .site-pagination a:hover,
 .page-top-section:after,
 .search-model:after,
-.hero-section,
 .back-to-top {
 	background: -o-linear-gradient(305deg, #942424 0%, #FCB854 100%);
 	background: linear-gradient(145deg, #942424 0%, #FCB854 100%);
@@ -248,8 +253,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fdb07d", endColorstr="#f65d5d", GradientType=1);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px),
-only screen and (min-width: 576px) and (max-width: 767px){
+@media only screen and (min-width: 576px) and (max-width: 767px){
 	h3 {
 		font-size: 23px;
 	}
@@ -977,16 +981,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	height: 100%;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.hero-section {
 		min-height: 990px;
 	}
-}
+} */
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px) {
 	.hero-section {
-		min-height: 650px;
+		/* min-height: 650px; */
 		/* min-height: auto; */
 		height: auto;
 	}
@@ -1227,7 +1231,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
 	.hs-style-1 {
-		padding: 90px 0 100px;
+		padding: 25vh 0 25vh;
 	}
 
 	.hs-style-1 img {
@@ -1313,7 +1317,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hs-style-3 {
-	padding-top: 160px;
+	padding-top: 20vh;
 	position: relative;
 	height: 100%;
 }
@@ -1574,6 +1578,11 @@ only screen and (min-width: 576px) and (max-width: 767px), (max-width: 576px){
 	background-repeat: no-repeat; */
 
 }
+
+section.about-section.spad {
+    padding-bottom: unset;
+}
+
 .container-bottom {
 	background-image: url(../img/AI-Wed-Website_mobile-bride&groom-1-cropped.png);
 	background-position: bottom;
@@ -1626,8 +1635,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
 
 	.about-groom {
-		height: 50vw;
-		padding-top: 70px;
+		height: 40vw;
+		padding-top: 15%;
 		padding-bottom:30px;
 		padding-left: 30px;
 		/* background-image: url(../img/AI-Wed-Website_mobile-bride&groom-jon.png); */
@@ -1642,9 +1651,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	}
 
 	.about-bride {
-		height: 50vw;
-		padding-left: 140px;
-		padding-top: 50px;
+		height: 60vw;
+		/* padding-left: 140px; */
+		padding-top: 15%;
 		padding-bottom:30px;
 		padding-right: 30px;
 		/* background-image: url(../img/AI-Wed-Website_mobile-bride&groom-ajeng.png);
@@ -1656,19 +1665,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	.bride-and-groom-name h3 {
 		font-style: italic;
 	}
-}
 
-@media only screen and (max-width: 576px) {
-	/* .about-bride {
-		height: 150px;
-		padding-left: 140px;
-		padding-top: 50px;
-		padding-bottom:30px;
+	/* .about-groom-details {
+		padding-right: 140px;
 	} */
-
-	.about-groom-details {
-		padding-right: 155px;
-	}
 }
 
 /*------------------
@@ -2268,7 +2268,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	margin-bottom: 90px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 350px) {
 	#normal-countdown {
 		padding-left: 40px;
 		padding-right: 40px;
