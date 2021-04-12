@@ -11,6 +11,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 html,
 body {
 	height: 100%;
@@ -218,7 +219,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .text-grey span,
 .text-grey li,
 .text-grey a {
-	color: #7D7A7A ;
+	color: #6b6b6b ;
 }
 
 .text-italic h1,
@@ -1523,7 +1524,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
    
 .about-section {
-	height: 800px;
+	height: 740px;
 	background-image: url(../img/AI-Wed-Website_Bride-Groom.png);
 	background-size: contain;
 	background-position: center bottom;
@@ -2057,7 +2058,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 	background-image: url(../img/AI-Wed-Website_Ornamen-3.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-size: 10em;
+	background-size: 9em;
 }
 
 .trainer-slider {
@@ -2387,6 +2388,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-weight: 400;
 }
 
+
 /*------------------
   Event section
 ---------------------*/
@@ -2408,7 +2410,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	background-image: url(../img/AI-Wed-Website_Ornamen-3-top.png);
 	background-position: top left;
 	background-repeat: no-repeat;
-	background-size: 10em;
+	background-size: 9em;
 }
 
 .event-video {
@@ -2470,6 +2472,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	.event-item .ei-img {
 		width: 100%;
 		float: none;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.event-section.spad {
+		padding-bottom: 0px;
 	}
 }
 
@@ -4590,4 +4598,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .contact-form {
 	padding-top: 10px;
+}
+
+#normal-countdown h3 {
+	font-family: 'Lora', serif;
 }
