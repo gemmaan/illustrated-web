@@ -3012,6 +3012,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	color: #f65d5d;
 }
 
+.footer-section .container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
 /*----------------
   Other Pages
 ------------------
