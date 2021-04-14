@@ -997,13 +997,13 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	}
 }
 
-@media only screen and (max-width: 576px) {
+/* @media only screen and (max-width: 576px) {
 	.hero-section {
 		min-height: 570px;
-		/* min-height: auto; */
+		min-height: auto;
 		height: auto;
 	}
-}
+} */
 
 .hero-social-warp {
 	padding-top: 100px;
@@ -1165,12 +1165,24 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 @media (max-width: 576px) {
 	.hs-item {
-		height: 100vh;
+		height: 100%;
 		padding: 0 20px;
 		background-image: url(../img/AI-Wed-Website_mobile-cincinbunga.png);
 		background-size: contain;
 		background-position: center bottom;
 		background-repeat: no-repeat;
+	}
+}
+
+@media (width: 568px) {
+	.hs-item {
+		height: 100%;
+		padding: 0 50px;
+		background-image: url(../img/AI-Wed-Website_Opening.png);
+		background-size: contain;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		background-color: #F0E4D5;
 	}
 }
 
@@ -1232,7 +1244,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
 	.hs-style-1 {
-		padding: 25vh 0 25vh;
+		padding: 15vh 0 25vh;
 	}
 
 	.hs-style-1 img {
@@ -2405,6 +2417,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 .cta-button-container {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .date-and-time {
@@ -2572,6 +2585,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
+	.cta-button-container .col-lg-6 {
+		padding-top:10px;
+	}
 	.covid.col-xl-6 {
 		padding-left: 30px;
 		padding-right: 30px;
@@ -3723,10 +3739,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	min-width: 100%;
 }
 
-.event-details {
+/* .event-details {
 	padding-right: 20px;
 	margin-bottom: 50px;
-}
+} */
 
 .event-details h2 {
 	font-size: 30px;
