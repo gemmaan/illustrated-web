@@ -1241,6 +1241,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	}
 }
 
+@media only screen and (width: 1024px) {
+	.hs-style-1 img {
+		width: 50%;
+		height: 50%;
+	}
+}
+
 .hs-style-2 {
 	height: 100%;
 }
@@ -2372,7 +2379,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media (max-width: 576px) {
 	.review-item p {
-		font-size: 12px;
+		font-size: 14px;
 		margin-bottom: 50px;
 	}
 }
@@ -2475,7 +2482,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	}
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
 	.event-section.spad {
 		padding-bottom: 0px;
 	}
@@ -2565,6 +2572,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
+	.covid.col-xl-6 {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
 	.event-filter-warp p {
 		padding-top: 0;
 		margin-bottom: 15px;
